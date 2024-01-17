@@ -11,7 +11,7 @@ void setupPin(byte numDigit)
     pinMode(digitPins[i], OUTPUT);
   }
   pin = numDigit;
-  for (byte i = 0; i < sizeof(segmentPins) - 1; i++)
+  for (byte i = 0; i < sizeof(segmentPins); i++)
   {
     pinMode(segmentPins[i], OUTPUT);
   }
