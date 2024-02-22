@@ -1,4 +1,4 @@
-#include "C:\Users\Kearth\Documents\Arduino\libraries\Mylib\Mylib.h"
+#include "..\Mylib.h"
 String _pattern = "-", _direction = "-";
 void setup() {
   setupPin(4);
